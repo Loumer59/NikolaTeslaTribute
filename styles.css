@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: midnightblue;
+    scrollbar-width: 1.5rem;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 1200px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 0;
+    
+    background-image: linear-gradient(white, midnightblue, aliceblue)
+}
+
+a:any-link {
+    text-decoration: none;
+    color: midnightblue;
+}
+
+main {
+    text-align: justify;
+    line-height: 2;
+}
+
+p, figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#nikolatesla {
+  border-radius: 10%;
+  margin: 0 auto;
+  display: block;
+  height: 30%;
+  width: 50%
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#family img{
+  border-radius: 30%;
+  margin-left: 50px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+    color: rgb(50, 50, 50);
+    font-size: 1.2rem;
+}
+
+li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+#importance {
+    font-size: 1.5rem;
+    color: rgb(30, 30, 30);
+    text-align: justify;
+}
+
+.floatpic {
+    float: left;
+    padding: 8px;
+    margin: 5px;
+    color: rgb(35, 34, 34);
+    font-style: italic;
+    
+}
+
+.floatpic img {
+    border-radius: 50%;
+    width: 20vw;
+    
+}
+
+.floatpicr {
+    float: right;
+    padding: 8px;
+    margin: 8px;
+    color: rgb(35, 34, 34);
+    font-style: italic;
+}
+
+.floatpicr img {
+    border-radius: 50%;
+    width: 20vw;
+}
+
+
+.mtwain img {
+    margin: 0 auto;
+    display: block;
+}
+
+.mtwain {
+    font-style: italic;
+}
+
+#timemagazine {
+    width: 50%;
+    height: 20%
+}
+
+@media (max-width:400px) {
+    body {
+        margin: 0 auto;
+        min-height: 100vh;
+        max-width: 20rem;
+        text-wrap: wrap;
+        box-sizing: border-box;
+        padding: 0;
+    }
+     
+    #importance {
+        padding: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        text-align:center
+    }
+
+    main {
+        text-align: justify;
+    line-height: 2;
+    padding: 0;
+    margin: 0 auto;
+    }
+
+    img {
+        min-width: 65vw;
+        max-width: 75vw;
+        margin: 0 auto;
+        margin-left: 1.4rem;
+    }
+
+    #family {
+        margin: 0 auto;
+    }
+
+    #family > img {
+        margin-left: 1.7rem;
+    }
+     
+    
+    #test {
+        margin-right: 1.7rem;
+    }
+
+
+    footer {
+        text-align: center;
+    }
+
+    #navbar {
+        display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+      #quote {
+        font-size: 1.5em;
+      }
+
+
+
+        }
+    
+
